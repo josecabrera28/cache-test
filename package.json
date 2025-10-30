@@ -1,0 +1,20 @@
+{
+    "name": "node-cache-test",
+    "version": "1.0.0",
+    "description": "Proyecto Node.js de prueba para cache de dependencias en GitHub Actions",
+    "main": "src/index.js",
+    "scripts": {
+    "build": "echo 'Building project...' && node src/index.js > build-output.txt",
+    "start": "node src/index.js",
+    "test": "echo 'Test placeholder passed ✅'"
+},
+    "dependencies": {
+        "axios": "^1.7.2",
+        "lodash": "^4.17.21",
+        "dayjs": "^1.11.13"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0"
+    },
+    "license": "MIT"
+}
